@@ -439,7 +439,7 @@ $section->addInput(new Form_Checkbox(
 
 $section->addInput(new Form_Checkbox(
 	'dnslocalhost',
-	'Disable DNS Forwarder',
+	'DNS Server Usage',
 	'Do not use the DNS Forwarder/DNS Resolver as a DNS server for the firewall',
 	$pconfig['dnslocalhost']
 ))->setHelp('By default localhost (127.0.0.1) will be used as the first DNS '.
